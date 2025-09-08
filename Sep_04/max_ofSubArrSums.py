@@ -1,4 +1,4 @@
-# Return min of all subarray sums possible (non empty only)
+# Return max of all subarray sums possible (non empty only)
 def maxSubArray(nums):
     total = 0
     res = -float('inf')
