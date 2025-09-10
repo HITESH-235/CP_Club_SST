@@ -38,14 +38,13 @@ def subArrays_withMaxSum(nums):
     res = []
     start = 0
     for i in range(len(nums)):
-        if sum_ == 0:
-            start = i
         sum_ += nums[i]
         if sum_ == maximum:
-            res.append(nums[start : i+1]) # start = start index, i = end index
+            res.append(nums[start : i+1])
 
         if sum_ < 0:
             sum_ = 0
+            start = i+1
     return res
 
 print()

@@ -47,7 +47,6 @@ def Flip_kdAlgo(A):
             arr.append(1)
         else:
             arr.append(-1)
-        total = 0
     max_sum = 0
     curr_sum = 0
     start = 0
@@ -62,5 +61,5 @@ def Flip_kdAlgo(A):
             start = i+1
     return res
 
-A = "111"
+A = "00010101110100101010"
 print(Flip_kdAlgo(A))
