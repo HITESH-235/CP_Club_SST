@@ -9,7 +9,7 @@ def rotate_matrix(A):
                 temp = A[i][j]
                 A[i][j] = A[j][i]
                 A[j][i] = temp
-
+    print(A)
     for i in range(n): # reversal of matrix
         l = 0
         r = n-1
@@ -25,6 +25,7 @@ def rotate_matrix(A):
 A = [[1,2,3],
      [4,5,6],
      [7,8,9] ]
+print(rotate_matrix(A))
 for x in A:
     print(x)
 print()
