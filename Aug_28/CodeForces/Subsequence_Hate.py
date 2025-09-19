@@ -39,3 +39,13 @@ def subsequence_hate(s):
 for x in range(inputs):
     s = str(input()).strip()
     subsequence_hate(s)
+
+# e.g.
+# 7
+# 001
+# 100
+# 101
+# 010
+# 0
+# 1
+# 001100
