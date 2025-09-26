@@ -1,5 +1,7 @@
 package CP_Club_SST.Sep_25;
 
+// return 1 if given string is palindrome; else 0
+
 import java.util.*;
 
 public class Palindrome_Recursive {
