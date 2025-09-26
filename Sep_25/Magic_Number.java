@@ -1,5 +1,7 @@
 package CP_Club_SST.Sep_25;
 
+// given a number recursively add its digits; if 1 is reached; return 1; else 0
+
 import java.util.Scanner;
 
 public class Magic_Number {
