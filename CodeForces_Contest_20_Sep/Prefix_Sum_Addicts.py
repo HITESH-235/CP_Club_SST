@@ -2,14 +2,14 @@
 # CODEFORCES link: https://codeforces.com/problemset/problem/1738/B
 
 def helper(n,k,prefixSums):
-    res = float('inf')
+    min_diff = float('inf')
 
     for i in range(k-1,0,-1):
-        if res < prefixSums[i] - prefixSums[i-1]:
+        if min_diff < prefixSums[i] - prefixSums[i-1]:
             return "NO"
-        res = prefixSums[i] - prefixSums[i-1]
+        min_diff = prefixSums[i] - prefixSums[i-1]
 
-    if prefixSums[0] <= (n-k+1)*res:
+    if prefixSums[0] <= (n-k+1)*min_diff:
         return "YES"
     
     return "NO"
