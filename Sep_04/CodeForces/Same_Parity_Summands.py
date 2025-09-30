@@ -10,7 +10,7 @@ def helper(n,k):
         print()
 # checking if all odd summands:
 # removing k no. of 1s and checking if n is even or not
-# e.g. 96;4; 96 - 4*1 = 92 = even; hence odd summands: 1,1,1,(96-k+1) = (90)
+# e.g. 96;4; 96 - 4*1 = 92 = even; hence odd summands: 1,1,1,(96-k+1) = (93)
     elif n>k and (n-k)%2 == 0: 
         print("YES")
         print("1 "*(k-1) + f"{n-k+1}")
