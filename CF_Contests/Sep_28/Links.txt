@@ -1,0 +1,16 @@
+CONTEST LINK:	https://codeforces.com/group/GHrcjas6PZ/contests
+
+
+1.VIVEK HATES DUPS:	    https://codeforces.com/group/GHrcjas6PZ/contest/637731/problem/A
+
+2.GRIDS EVERYWHERE:	    https://codeforces.com/group/GHrcjas6PZ/contest/637731/problem/B
+
+3.RETURN GIFT!:		    https://codeforces.com/group/GHrcjas6PZ/contest/637731/problem/C
+
+4.PREFIX SUM ADDICTS: 	https://codeforces.com/group/GHrcjas6PZ/contest/637731/problem/D
+
+5.RECURSION!!: 		    https://codeforces.com/group/GHrcjas6PZ/contest/637731/problem/E
+
+6.MATH: 		        https://codeforces.com/group/GHrcjas6PZ/contest/637731/problem/F
+
+7.XOR EQUATION: 	    https://codeforces.com/group/GHrcjas6PZ/contest/637731/problem/G
