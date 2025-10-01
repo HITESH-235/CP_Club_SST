@@ -23,6 +23,7 @@ public class Math {
         int n = sc.nextInt();
         if (n==1) {
             System.out.println("1 0");
+            sc.close();
             return;
         }
         int max_Power = 0;
@@ -47,6 +48,7 @@ public class Math {
         }
         if (max_Power == 1) {
             System.out.println(res_1+" "+"0");
+            sc.close();
             return;
         }
         int i=0, res_2;
@@ -58,6 +60,7 @@ public class Math {
             res_2 += 1;
         }
         System.out.println(res_1+" "+res_2);
+        sc.close();
     }
 }
 
