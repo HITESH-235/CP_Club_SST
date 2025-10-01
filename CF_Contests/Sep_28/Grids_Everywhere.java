@@ -81,7 +81,7 @@ public class Grids_Everywhere {
             for (int key : freqMap.keySet()) {
                 int freq = freqMap.get(key);
                 moves += freq;
-                maxFreq = Math.max(maxFreq, freq);
+                maxFreq = (freq > maxFreq) ? freq : maxFreq;
             }
             System.out.println(moves-maxFreq);
         }
