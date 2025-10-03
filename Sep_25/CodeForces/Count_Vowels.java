@@ -2,6 +2,7 @@
 // CODEFORCES link:  https://codeforces.com/group/MWSDmqGsZm/contest/223339/problem/I
 
 package CP_Club_SST.Sep_25.CodeForces;
+
 import java.util.*;
 
 public class Count_Vowels {
