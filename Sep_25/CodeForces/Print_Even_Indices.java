@@ -11,17 +11,23 @@ public class Print_Even_Indices {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[] arr = new int[n];
+        for (int i=0; i<n; i++) {
+            int e = sc.nextInt();
+            arr[i] = e;
+        }
+        printEvenIndices(arr,0);
         sc.close();
     }
 
-static void printEvenIndices(int[n] arr, int i) {
-    if (i==n-1 || i==n-2) {
-        System.out.println(arr[i]);
+static void printEvenIndices(int[] arr, int i) {
+    if (i==arr.length-1 || i==arr.length-2) {
+        System.out.print(arr[i]);
         return;
     }
-    printEvenIndices(int[n] arr, i+2);
+    printEvenIndices(arr, i+2);
     
-    System.out.println(arr[i], " ");
+    System.out.print(" ");
+    System.out.print(arr[i]);
     return;
 }
 }
