@@ -12,6 +12,7 @@ public class Count_Vowels {
             System.out.println(countVowels(s,0));
             sc.close();
     }
+
 static int countVowels(String s, int index) {
     if (index == s.length()) {return 0;}
     char curr = s.charAt(index);
