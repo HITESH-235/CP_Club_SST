@@ -1,3 +1,10 @@
+// Next Round
+// CODEFORCES link: https://codeforces.com/problemset/problem/158/A
+
+// given an arr as scores of n (>=1) contestants; given 1 <= k <= n
+// return the number of contestants who score more than contestant at kth position in arr
+// but those scores must be strictly positive
+
 package CP_Club_SST.Sep_18.CodeForces;
 import java.util.*;
 public class Next_Round {
