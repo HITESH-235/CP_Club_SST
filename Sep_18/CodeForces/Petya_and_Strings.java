@@ -13,14 +13,15 @@ public class Petya_and_Strings {
 
         String s1 = sc.nextLine().toLowerCase();
         String s2 = sc.nextLine().toLowerCase();
-        int x,y;
-        int max_len = java.lang.Math.max(s1.length(), s2.length());
+
+        int x, y, max_len = java.lang.Math.max(s1.length(),s2.length());
         for (int i=0; i<max_len; i++) {
             x = (int)s1.charAt(i);
             y = (int)s2.charAt(i);
 
             if (x!=y) {
-                System.out.println(x-y);
+                int res = (x>y)? 1:-1;
+                System.out.println(res);
                 sc.close();
                 return;
             }
