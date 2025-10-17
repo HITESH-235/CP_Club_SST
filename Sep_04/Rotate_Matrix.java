@@ -123,4 +123,17 @@ public static boolean isSame(int[][] A, int[][] target) {
 //     }
 // }
 
+
+// Tranpose of Any Matrix (order MxN):
+public static ArrayList<ArrayList<Integer>> transpose(ArrayList<ArrayList<Integer>> A) {
+    int row = A.size(), col = A.get(0).size();
+
+    ArrayList<ArrayList<Integer>> res = new ArrayList<>();
+    for (int i=0; i<col; i++) { res.add(new ArrayList<>()); }
+
+    for (int i=0; i<row; i++) {
+        for (int j=0; j<col; j++) { res.get(j).add(A.get(i).get(j)); }
+    }
+    return res;
+}
 }
