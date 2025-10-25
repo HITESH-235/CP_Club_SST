@@ -22,31 +22,31 @@ def brute_force(nums):
     return res
 
 def optimised(nums):
-    r_even_sum = 0
     r_odd_sum = 0
+    r_even_sum = 0
     n = len(nums)
     for i in range(n):
         if i%2 == 0:
-            r_even_sum += nums[i]
-        else:
             r_odd_sum += nums[i]
+        else:
+            r_even_sum += nums[i]
 
     l_even_sum = 0
     l_odd_sum = 0
     res = 0
     for i in range(n):
         if i%2 == 0:
-            r_even_sum -= nums[i]
-        else:
             r_odd_sum -= nums[i]
+        else:
+            r_even_sum -= nums[i]
 
         if (l_even_sum + r_odd_sum) == (l_odd_sum + r_even_sum):
             res += 1
 
         if i%2 == 0:
-            l_even_sum += nums[i]
-        else:
             l_odd_sum += nums[i]
+        else:
+            l_even_sum += nums[i]
     return res
 
 nums = [2,1,6,4]
