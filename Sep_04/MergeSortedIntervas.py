@@ -47,6 +47,6 @@ def solve(A):
     return st
 
 nums = [[1, 3], [2, 6], [8, 10] ,[11,15], [12, 18]]
-nums = [[1,4],[0,2],[3,5]]
-# print(MergeSortedIntervals(nums))
+nums = [[1,4],[5,10],[6,11]]
+print(MergeSortedIntervals(nums))
 print(solve(nums))
