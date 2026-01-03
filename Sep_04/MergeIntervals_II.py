@@ -5,7 +5,7 @@
 def sorted_InsertInterval(A, B):
     # A is the given 2d array, insert B (element) inside it and then merge
     n = len(A)
-    A.append(-1) # putting extra element at back
+    A.append([0,0]) # putting extra element at back
     pos = -1
 
     for i in range(n): # finding position to put B at
